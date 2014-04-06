@@ -1,0 +1,21 @@
+/*
+
+CSS Credit: http://www.templatemo.com/
+
+*/
+
+html
+{
+    background: #808080;
+}
+
+ContenidoCentro
+{
+    	float: left;
+
+	width: 900px;
+
+	height: 104px;
+
+	margin-top: 60px;
+}

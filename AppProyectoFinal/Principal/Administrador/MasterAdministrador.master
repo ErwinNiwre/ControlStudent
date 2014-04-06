@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/PrincipalMaster.Master" AutoEventWireup="true" CodeBehind="MasterAdministrador.master.cs" Inherits="Principal.Administrador.MasterAdministrador" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContenidoTitulo" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContenidoMenu" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContenidoMedio" runat="server">
+</asp:Content>

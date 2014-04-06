@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/PrincipalMaster.Master" AutoEventWireup="true" CodeBehind="MasterEstudiante.master.cs" Inherits="Principal.Estudiantes.MasterEstudiante" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContenidoTitulo" runat="server">
+    <span style="font-size: xx-large">Control Student</span>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContenidoMenu" runat="server">
+    <ul>
+
+        <li><a href="/Estudiantes/Home.aspx">CONTRASEÑA</a></li>
+
+        <li><a href="/Estudiantes/AdmNotas.aspx">ADM.NOTAS</a></li>
+
+        <li><a href="/Estudiantes/Asistencia.aspx">ASISTENCIAS</a></li>
+
+        <li><a href="/Estudiantes/Notas.aspx">NOTAS</a></li>
+
+        <li><a href="/Estudiantes/Tareas.aspx">TAREAS</a></li>
+
+        <li><a href="/Estudiantes/Reportes.aspx">REPORTES</a></li>
+
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContenidoMedio" runat="server">
+    <asp:ContentPlaceHolder ID="ContenidoMedio" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
